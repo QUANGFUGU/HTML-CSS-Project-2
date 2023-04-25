@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+:root {
+    --primary-color: #1EBFC1;
+}
+
+
+/* Common */
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 26px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.head {
+    z-index: 1;
+    top: 0;
+    position: sticky;
+}
+
+.header .head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    background: #fff;
+    padding: 15px 0;
+}
+
+.nav-bar a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.86;
+    color: #2F3A3B;
+    padding-right: 39px;
+}
+
+.active .sign-in {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #494949;
+    margin-right: 24px;
+}
+
+.active .sign-up {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #1EBFC1;
+    border: #1EBFC1 1px solid;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+
+.active .sign-up:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.head-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    gap: 71px;
+    padding-bottom: 79px;
+}
+
+.head-info .info {
+    width: 39%;
+}
+
+.head-info .show-bar {
+    width: 55%;
+}
+
+.info .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9DA6A5;
+    margin-top: 46px;
+}
+
+
+.head-info .show-bar {
+    width: 54.7%;
+}
+
+.head-info .info .title {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0D1111;
+    margin-top: 18px;
+}
+
+.head-info .info .plus {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #767E7E;
+}
+
+.head-info .active-bar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.head-info .play {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+}
+
+.info .btn {
+    width: 186px;
+    height: 68px;
+    margin-top: 72px;
+}
+
+.head-btn {
+    background: #1EBFC1;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+    padding: 20px 41px 21px 41px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info .btn:hover {
+    opacity: 0.8;
+}
+
+.show-bar {
+    position: relative;
+}
+
+.show-bar .title-img .blog-img {
+    object-fit: cover;
+    width: 576px;
+    height: 631px;
+    margin-left: 64px;
+}
+
+.head-info .course-img {
+    position: absolute;
+    top: 48px;
+    left: -54px;
+}
+
+.head-info .schedules-img {
+    position: absolute;
+    top: 359px;
+    left: -80px;
+}
+
+.head-info .std-avtar {
+    position: absolute;
+    width: 207px;
+    height: 90px;
+    background: #FEFEFD;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    right: 45px;
+    bottom: 41px;
+}
+
+.head-info .as-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-info .as-avatar img {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avt-plus {
+    display: flex;
+    width: 33px;
+    height: 33px;
+    background-color: #1EBFC1;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.avt-plus .desc {
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.std-avtar .o-a-s {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #0D1111;
+    margin-top: 17px;
+    margin-left: 35px;
+}
+
+
+.as-avatar .avtar {
+    margin-left: -10px;
+}
+
+.feature {
+    margin-top: 130px;
+}
+
+.feature .feature-info {
+    width: 591px;
+    height: 220px;
+}
+
+.top-feature {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #767E7E;
+}
+
+.mid-feature {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0D1111;
+}
+
+.feature-info .desc {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 27px;
+
+    color: #767E7E;
+}
+
+.feature-row {
+    width: 88%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 209px;
+}
+
+.feature .feature-action {
+    width: 168px;
+    height: 259px;
+}
+
+.feature-action .feature-icon {
+    width: 102px;
+    height: 106px;
+    border-radius: 18px;
+}
+
+.feature-action .title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 30px;
+    color: #0D1111;
+}
+
+.feature-action .desc {
+    height: 81px;
+    width: 223px;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9DA6A5;
+}
+
+.feature-action .desc:first-child {
+    width: 168px;
+}
+
+.feature-action .desc:last-child {
+    width: 224px;
+}
+
+.courses {
+    margin-top: 130px;
+}
+
+.courses #courses-top {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #767E7E;
+}
+
+.courses .courses-mid {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 63px;
+    color: #0D1111;
+}
+
+.courses .courses-bottom {
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .courses-bottom .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767E7E;
+    width: 525px;
+}
+
+.courses .view-action {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #1EBFC1;
+}
