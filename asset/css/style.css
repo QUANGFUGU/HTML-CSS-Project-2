@@ -182,6 +182,7 @@ a {
     left: -54px;
 }
 
+
 .head-info .schedules-img {
     position: absolute;
     top: 359px;
@@ -395,6 +396,10 @@ a {
     border-radius: 8px;
 }
 
+.courses-image .courses-img .img:first-child {
+    object-position: left;
+}
+
 .courses .courses-desc {
     position: absolute;
     width: 90.5%;
@@ -477,4 +482,241 @@ a {
     line-height: 27px;
     text-align: center;
     color: #767E7E;
+}
+
+.introduce {
+    margin-top: 264px;
+}
+
+.introduce .information {
+    display: flex;
+    gap: 72px;
+}
+
+.information .intro-desc {
+    width: 35.8%;
+}
+
+.information .avatar {
+    width: 58%;
+}
+
+.information .desc {
+    margin-top: 27px;
+    width: 419px;
+    height: 192px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5D6564;
+}
+
+.open-quote {
+    margin-top: 37px;
+}
+
+.information .name {
+    margin-top: 33px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #767E7E;
+}
+
+.name .ben {
+    color: #070707;
+}
+
+.information .button {
+    display: flex;
+    gap: 30px;
+}
+
+.information .btn {
+    margin-top: 52px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2AC9BF;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.information .btn img {
+    display: block;
+    margin: 0 auto;
+}
+
+.information .avatar {
+    position: relative;
+}
+
+.information .intro {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.intro.elip1 {
+    width: 235px;
+    height: 235px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    top: 107px;
+    right: 171px;
+}
+
+.intro.elip6 {
+    width: 110px;
+    height: 110px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    top: 19px;
+    right: 0;
+}
+
+.intro.elip5 {
+    width: 92px;
+    height: 92px;
+    top: 0;
+    left: 144px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.intro.elip4 {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    width: 78px;
+    height: 78px;
+    left: 0;
+    bottom: 145px;
+}
+
+.intro.elip3 {
+    left: 212px;
+    bottom: 0;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    width: 78px;
+    height: 78px;
+}
+
+.intro.elip2 {
+    width: 78px;
+    height: 78px;
+    bottom: 29px;
+    right: 32px;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+.appeal {
+    height: 272px;
+    background-color: #DEF6F5;
+    margin-top: 130px;
+}
+
+.appeal .main-content {
+    display: flex;
+    gap: 410px;
+}
+
+.appeal .appeal-row {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.appeal .ready {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 63px;
+    color: #070707;
+    margin-top: 72px;
+}
+
+.appeal .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #767E7E;
+}
+
+.appeal .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    width: 186px;
+    height: 68px;
+    background: #2AC9BF;
+    border-radius: 14px;
+}
+
+.appeal .btn:hover {
+    opacity: 0.7;
+}
+
+.appeal .btn a {
+    color: #FFFFFF;
+    padding: 20px 41px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+footer {
+    margin-top: 130px;
+    padding-bottom: 130px;
+}
+
+footer .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+footer .footer h2 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #2E2E2E;
+}
+
+.footer li {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #535353;
+}
+
+.footer li:not(:first-child) {
+    margin-top: 19px;
+}
+
+.socail h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #2E2E2E;
+}
+
+.socail-bar {
+    margin: 18px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.socail-bar p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #535353;
 }
